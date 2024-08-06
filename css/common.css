@@ -24,3 +24,7 @@ body {
    height: auto;
    padding: 10px;
  }
+
+ ul {
+  list-style-type: none;
+ }

@@ -27,10 +27,11 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 
-// Додавання зображень до галереї
 images.forEach(image => {
+    const li = document.createElement('li');
     const img = document.createElement('img');
     img.src = image.url;
     img.alt = image.alt;
-    gallery.appendChild(img);
+    li.appendChild(img);
+    gallery.appendChild(li);
 });
