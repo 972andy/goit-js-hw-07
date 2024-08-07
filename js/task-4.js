@@ -17,6 +17,6 @@ function handleSubmit(event) {
         };
 
         console.log("Form Data:", formData);
+         form.reset();
     };
-  form.reset();
 }
